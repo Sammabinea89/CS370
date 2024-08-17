@@ -1,0 +1,53 @@
+Sammabine Admettre
+CS 465 
+Full Stack Development 1
+Module Six 
+Journal 
+
+How is the Angular project structure different from that of the Express HTML customer-facing page?
+
+	Angular is often used for front-end capabilities, but express is generally used for back-end capabilities. Angular is primarily used to provide front-end functionality.
+
+What are some advantages and disadvantages of the SPA functionality? What additional functionality is provided by a SPA compared to a simple web application interaction?
+
+	One of the most useful aspects of the SPA feature is its ability to retain data while providing consumers with a quick and seamless experience.For Fast Abd's SPA to operate, the time it takes for a page to load and the amount of time visitors must wait may be reduced.The SPA feature from Continuous User Experience provides users with a seamless dynamic experience by using various transition effects to create a feeling of virtual reality throughout the user journey. Local data may be exchanged with the server when the connectivity improves by using SPA's caching facilities, which are available to users with sluggish connections.
+
+	There are certain issues with how the SPA operates, such as the fact that it saves your computer data and allows you to share links. Because SPA may preserve browser data, users expect the browser to return to its previous state fast when they use the back button. This does not happen, however. For whatever reason, the computer can only return the user to the previous page. It cannot return them to their prior condition in an application. When you have a single-page application that only retains one URL address, you may have issues with Link Sharing, which is one of the SPA functionalities. Cross-site scripting attacks are more likely to be successful if they target SPA security vulnerabilities. Cross-site scripting (XSS) allows hackers to inject scripts that execute on the client side of an online service.
+
+What is the process of testing to make sure the SPA is working with the API to GET and PUT data in the database? 
+
+	API testing is a sort of software testing that involves examining an application programming interface (API) to ensure that it satisfies the requirements for dependability, security, usefulness, and speed. When employees use the web app to fill out their timesheets, they test the SPA to ensure that it works with the API to GET and PUT data into the database. The corporation intends to replace it with an SPA, nevertheless. The web application will utilize the application programming interface (API) to get the time notes made by employees on their timesheets and then transmit that information to the database for all timesheets. Similarly, the web application will allow managers to approve report notes created by employees.
+
+
+What are some errors you ran into or what are some errors you could expect to run into?
+
+	Some of the faults a user might make include incorrect login information, network issues, invalid requests, and fatal failures. Login issues might occur when a user enters credentials that are not recorded in the database. To resolve a login problem, the first step is to submit login information. While the public API is down, network difficulties will occur. To overcome the network difficulty, the service must be quick. A call error occurs when a person delivers the incorrect request, such as a non-existent URL.This step is required for the request error to display the specifics of each section. When the requested item is no longer accessible, a fatal error occurs. As a precaution, check to determine whether the API still works after a catastrophic error.
+
+What questions do you still have that will help you with SPA in future builds?
+
+	One of the things that has perplexed me is how to make a single-page software safer in future editions without making it less usable. What further testing techniques should be utilized to ensure that SPA functions correctly in future builds?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference
+
+Sethi, S. (2024, May 9). What is API Testing: Comprehensive Guide for Reliability & Performance. Axelerant.com; Axelerant. https://www.axelerant.com/blog/what-is-api-testing#:~:text=API%20testing%20refers%20to%20validating
+
+The Pros & Cons of Single Page Applications (SPAs). (n.d.). Ventionteams.com. https://ventionteams.com/blog/pros-cons-of-single-page-applications
+‌
